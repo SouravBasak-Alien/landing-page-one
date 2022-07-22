@@ -665,6 +665,9 @@ footer .copy-right-area span{
 		padding-bottom: 8rem;
 		
 	}
+	.contact .input-warp{
+		    grid-template-columns: repeat(1,1fr);
+	}
 
 }
 
