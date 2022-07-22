@@ -607,6 +607,10 @@ footer .copy-right-area span{
 }
 /* for phone */
 @media (max-width:576px) {
+	.site-main-warper{
+		overflow: hidden;
+	}	
+	
 	section{
 		padding: 2rem 0;
 	}
@@ -615,7 +619,7 @@ footer .copy-right-area span{
 		flex-direction: column;
 	}
 	header {
-		clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 94%, 0 100%);
 	}
 	.hero .right {
 		position: absolute;
